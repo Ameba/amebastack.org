@@ -12,10 +12,11 @@ color:
   secondary: 34302d
   secondary-dark: 262626
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
     url: http://github.com/Ameba
+  - title: bug
+    url: https://github.com/Ameba/AmebaStack/issues
   - title: google-plus
     url: https://plus.google.com/116577209082774853202/posts
   - title: stack-overflow
