@@ -31,7 +31,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -72,7 +71,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #dddbda;
+    background-color: #f1f1f1;
 }
 
 .img-centered {
@@ -151,7 +150,6 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -198,7 +196,7 @@ section.success {
 }
 
 #feature {
-    background: #dddbda;
+    background: #f1f1f1;
 }
 
 #feature .feature-item {
@@ -278,8 +276,8 @@ section.success {
 
 
 .btn-download {
-    margin-top: 35px;
-    padding: 18px 75px;
+    margin-top: 75px;
+    padding: 18px 125px;
 }
 
 .floating-label-form-group {
@@ -439,6 +437,36 @@ footer .footer-below {
 .feature-modal .close-modal {
     font-size: 55px;
 }
+
 .feature-modal .star-primary:after {
     background-color: #fff;
+}
+
+#guides {
+    background: #EBF1E7;
+}
+
+#guides .star-primary:after {
+    background-color: #EBF1E7;
+}
+
+#guides, #feature, header {
+    border-bottom: 1px solid #dddbda;
+}
+
+.fa-google-plus {
+    left: 2px;
+    top: 2px;
+    position: relative;
+}
+
+.fa-bug, .fa-github, .fa-envelope-o {
+    top: 1px;
+    position: relative;
+}
+
+.fa-chevron-up {
+    top: -2px;
+    left: -1px;
+    position: relative;
 }
