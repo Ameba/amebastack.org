@@ -3,16 +3,8 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                    <div class="footer-col col-md-6">
+                        <h3>更多信息</h3>
                         <ul class="list-inline">
                             {% for network in site.social %}
                             <li>
@@ -21,9 +13,19 @@
 		                    {% endfor %}
                         </ul>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Credits</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    <div class="footer-col col-md-6">
+                        <h3>鸣谢</h3>
+                        <p>Ameba Stack 构建在众多优秀的开源类库之上，在此感谢这些类库付出的努力和贡献。
+                            <a href="https://jersey.java.net">Jersey</a>、
+                            <a href="https://grizzly.java.net">Grizzly</a>、
+                            <a href="//httl.github.io">HTTL</a>、
+                            <a href="https://github.com/alibaba/druid">Druid</a>、
+                            <a href="https://github.com/ebean-orm/avaje-ebeanorm">EbeanORM</a>、
+                            <a href="https://code.google.com/p/guava-libraries">Guava</a>、
+                            <a href="//maven.apache.org">Maven</a>、
+                            <a href="//logback.qos.ch">Logback</a>、
+                            <a href="https://github.com/FasterXML/jackson">Jackson</a> 等。
+                        </p>
                     </div>
                 </div>
             </div>
