@@ -470,3 +470,23 @@ footer .footer-below {
     left: -1px;
     position: relative;
 }
+
+.logo {
+    width: 60px;
+    float: left;
+    top: -30px;
+    position: relative;
+    margin-left: -50px;
+    right: 15px;
+    opacity: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+.navbar-shrink .logo {
+    width: 40px;
+    top: -15px;
+    opacity: 1;
+    margin-left: 10px;
+}
