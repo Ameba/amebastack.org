@@ -97,7 +97,6 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -121,6 +120,10 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
+}
+
+.navbar-brand {
+    text-transform: capitalize;
 }
 
 @media(min-width:768px) {
@@ -433,27 +436,9 @@ footer .footer-below {
     opacity: .3;
 }
 
-.feature-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+.feature-modal .close-modal {
+    font-size: 55px;
 }
-
-.feature-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #{{ site.color.secondary }};
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
 .feature-modal .star-primary:after {
     background-color: #fff;
 }

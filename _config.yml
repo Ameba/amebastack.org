@@ -20,6 +20,8 @@ social:
     url: https://plus.google.com/116577209082774853202/posts
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/amebastack
+  - title: envelope-o
+    url: mailto:intelligentcodemail@gmail.com
 
 # Build settings
 markdown: kramdown
