@@ -453,3 +453,7 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.feature-modal .star-primary:after {
+    background-color: #fff;
+}
