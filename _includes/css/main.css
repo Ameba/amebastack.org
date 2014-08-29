@@ -131,8 +131,7 @@ header .intro-text .skills {
     position: relative;
     z-index: 200;
     height: 100%;
-    margin-bottom: 330px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
 }
 
 @media(min-width:768px) {
@@ -355,13 +354,8 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #f1f1f1;
-    position: absolute;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    box-shadow:0 8px 8px #1D1D1D inset;
-    padding-top: 15px;
+    box-shadow:0 1px 2px #262626 inset;
+    padding-top: 5px;
     -webkit-transform: translateZ(0);
     background-color: #{{ site.color.secondary }};
 }
@@ -536,16 +530,4 @@ footer .footer-below {
     top: -15px;
     opacity: 1;
     margin-left: 10px;
-}
-
-@media (max-width: 767px){
-    .main {
-        margin-bottom: 520px;
-    }
-}
-
-@media (min-width: 768px){
-    .main {
-        margin-bottom: 490px;
-    }
 }
