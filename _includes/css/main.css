@@ -280,6 +280,13 @@ section.success {
     padding: 18px 125px;
 }
 
+@media(max-width:768px) {
+    .btn-download {
+        display: block;
+        padding: 18px 27px;
+    }
+}
+
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
