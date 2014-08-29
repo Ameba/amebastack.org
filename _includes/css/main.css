@@ -462,13 +462,13 @@ footer .footer-below {
 }
 
 
-::selection { background:rgba(52,48,45,.8); }
-::-moz-selection { background:rgba(52,48,45,.8); }
-::-webkit-selection { background:rgba(52,48,45,.8); }
+::selection { background:rgba(52,48,45,.5); }
+::-moz-selection { background:rgba(52,48,45,.5); }
+::-webkit-selection { background:rgba(52,48,45,.5); }
 
-footer ::selection, #guides ::selection, #feature ::selection { background:rgba(109, 179, 63,.8); }
-footer ::-moz-selection, #guides ::-moz-selection, #feature ::-moz-selection { background:rgba(109, 179, 63,.8); }
-footer ::-webkit-selection, #guides ::-webkit-selection, #feature ::-webkit-selection { background:rgba(109, 179, 63,.8); }
+.feature-modal ::selection,footer ::selection, #guides ::selection, #feature ::selection { background:rgba(109, 179, 63,.5); }
+.feature-modal ::-moz-selection,footer ::-moz-selection, #guides ::-moz-selection, #feature ::-moz-selection { background:rgba(109, 179, 63,.5); }
+.feature-modal ::-webkit-selection,footer ::-webkit-selection, #guides ::-webkit-selection, #feature ::-webkit-selection { background:rgba(109, 179, 63,.5); }
 
 .fa-google-plus {
     left: 2px;
