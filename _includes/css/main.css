@@ -461,6 +461,15 @@ footer .footer-below {
     border-bottom: 1px solid #dddbda;
 }
 
+
+::selection { background:rgba(52,48,45,.8); }
+::-moz-selection { background:rgba(52,48,45,.8); }
+::-webkit-selection { background:rgba(52,48,45,.8); }
+
+footer ::selection, #guides ::selection, #feature ::selection { background:rgba(109, 179, 63,.8); }
+footer ::-moz-selection, #guides ::-moz-selection, #feature ::-moz-selection { background:rgba(109, 179, 63,.8); }
+footer ::-webkit-selection, #guides ::-webkit-selection, #feature ::-webkit-selection { background:rgba(109, 179, 63,.8); }
+
 .fa-google-plus {
     left: 2px;
     top: 2px;
