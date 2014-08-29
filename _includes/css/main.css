@@ -537,3 +537,15 @@ footer .footer-below {
     opacity: 1;
     margin-left: 10px;
 }
+
+@media (max-width: 767px){
+    .main {
+        margin-bottom: 520px;
+    }
+}
+
+@media (min-width: 768px){
+    .main {
+        margin-bottom: 490px;
+    }
+}
